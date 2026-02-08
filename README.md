@@ -1,6 +1,6 @@
 # Pidgin WhatsApp Plugin (whatsmeow-lite)
 
-A **from-scratch** libpurple protocol plugin that adds WhatsApp support to Pidgin, powered by [whatsmeow](https://github.com/tulir/whatsmeow).
+A **from-scratch** libpurple protocol plugin that adds WhatsApp support to Pidgin, powered by [whatsmeow](https://github.com/tulir/whatsmeow). Note this is a proof of concept not supported by Meta and not recommended for daily use. Use at your own risk.
 
 This project provides two things:
 
