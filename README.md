@@ -4,15 +4,15 @@ A **from-scratch** libpurple protocol plugin that adds WhatsApp support to Pidgi
 
 This project provides two things:
 
-1. **`scripts/install-purple-whatsapp.sh`** — A turnkey installer for the mature [purple-gowhatsapp](https://github.com/hoehermann/purple-gowhatsapp) plugin (recommended for daily use)
-2. **The `src/` directory** — A clean, minimal, from-scratch implementation showing exactly how the C↔Go bridge architecture works (educational + hackable)
+1. **`install-purple-whatsapp.sh`** — A turnkey installer for the mature [purple-gowhatsapp](https://github.com/hoehermann/purple-gowhatsapp) plugin (recommended for daily use)
+2. **The `./` directory** — A clean, minimal, from-scratch implementation showing exactly how the C↔Go bridge architecture works (educational + hackable)
 
 ## Quick Start (Option A: Use the existing plugin)
 
 The easiest path to WhatsApp in Pidgin:
 
 ```bash
-bash scripts/install-purple-whatsapp.sh --user
+bash install-purple-whatsapp.sh --user
 ```
 
 This clones, builds, and installs purple-gowhatsapp automatically. Supports Ubuntu/Debian, Fedora, and Arch Linux.
@@ -154,17 +154,7 @@ pidgin-whatsapp/
 ├── CMakeLists.txt              # CMake build system
 ├── Makefile                    # Simpler make-based build
 ├── README.md
-├── scripts/
-│   └── install-purple-whatsapp.sh  # Turnkey installer for purple-gowhatsapp
-└── src/
-    ├── c/
-    │   └── plugin.c            # libpurple protocol plugin (C side)
-    └── go/
-        ├── bridge.h            # Shared C↔Go interface contract
-        ├── go.mod              # Go module dependencies
-        └── whatsmeow_bridge.go # whatsmeow wrapper (Go side)
+├── install-purple-whatsapp.sh  # Turnkey installer for purple-gowhatsapp
+├── plugin.c            # libpurple protocol plugin (C side)
+└── whatsmeow_bridge.go # whatsmeow wrapper (Go side)
 ```
-
-## License
-
-MIT (this plugin). whatsmeow is MPL-2.0. purple-gowhatsapp is GPL-3.0.
