@@ -2,6 +2,10 @@
 
 A **from-scratch** libpurple protocol plugin that adds WhatsApp support to Pidgin, powered by [whatsmeow](https://github.com/tulir/whatsmeow). Note this is a proof of concept not supported by Meta and not recommended for daily use. Use at your own risk.
 
+![danger](https://github.com/user-attachments/assets/d06a4184-500d-4c1b-a9c2-23a9aaafcde9)
+
+VIBE CODE ALARM - This is written by Claud Opus v4.6. Use at your own risk.
+
 This project provides two things:
 
 1. **`install-purple-whatsapp.sh`** — A turnkey installer for the mature [purple-gowhatsapp](https://github.com/hoehermann/purple-gowhatsapp) plugin (recommended for daily use)
