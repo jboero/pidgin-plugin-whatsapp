@@ -1,0 +1,3 @@
+# Hashes of file build rules.
+fe7b81b4c7aceb698fd30839d9f8743b CMakeFiles/go-bridge
+4fd3e4ce9d3c9d37a828241f03798384 go-build/libwhatsmeow-bridge.a

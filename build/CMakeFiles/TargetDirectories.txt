@@ -1,0 +1,8 @@
+/home/jboero/code/pidgin-plugin-whatsapp/build/CMakeFiles/go-bridge.dir
+/home/jboero/code/pidgin-plugin-whatsapp/build/CMakeFiles/whatsmeow-lite.dir
+/home/jboero/code/pidgin-plugin-whatsapp/build/CMakeFiles/edit_cache.dir
+/home/jboero/code/pidgin-plugin-whatsapp/build/CMakeFiles/rebuild_cache.dir
+/home/jboero/code/pidgin-plugin-whatsapp/build/CMakeFiles/list_install_components.dir
+/home/jboero/code/pidgin-plugin-whatsapp/build/CMakeFiles/install.dir
+/home/jboero/code/pidgin-plugin-whatsapp/build/CMakeFiles/install/local.dir
+/home/jboero/code/pidgin-plugin-whatsapp/build/CMakeFiles/install/strip.dir
