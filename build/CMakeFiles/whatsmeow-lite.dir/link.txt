@@ -1,0 +1,1 @@
+/usr/lib64/ccache/cc -fPIC -Wl,--dependency-file=CMakeFiles/whatsmeow-lite.dir/link.d -shared -Wl,-soname,libwhatsmeow-lite.so -o libwhatsmeow-lite.so "CMakeFiles/whatsmeow-lite.dir/src/c/plugin.c.o"  go-build/libwhatsmeow-bridge.a -lpurple -lglib-2.0 -lglib-2.0 -lpthread -lm -lresolv -lgdk_pixbuf-2.0 -lgobject-2.0 -lglib-2.0 -lpthread -lm -lresolv -lgdk_pixbuf-2.0 -lgobject-2.0
